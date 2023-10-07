@@ -46,45 +46,40 @@
             <input id="Date" type="date"><br>
             <label> gender</label>
             <input type="text" id="gender" ><br>
+            <label for="major">Major:</label>
+            <label for="major">IT</label>
+            <input type="checkbox" class="major" value="IT" >
+            <label for="major">Administration</label>
+            <input type="checkbox" class="major" value="Administration" >
+            <label for="major">Science</label>
+            <input type="checkbox" class="major" value="Science" >
+            <label for="major">Art</label>
+            <input type="checkbox" class="major" value="Art" ><br>
+            <label for="imageUrl">Image URL:</label>
+            <input type="text" id="imageUrl" ><br>
             <label >phone number </label>
             <input type="text" id="phone" ><br>
-           
-            <label> grade</label>
-            <input id="grade" type="text">
             <br>
-            <input type="button" onclick="sendData()" value="submit" class="submit">
-            
+            <input type="button" onclick="setdata()" value="submit" class="submit">
+       
         </form>
     
   </div>
 </div>
-  <div class="row" style="margin-top:20px ">    
+<div class="container">
+  <div id="students-container"  class="row" style="margin-top:20px ">    
   
      
-      <div class="col-sm-10 text-center"> 
-        <table class="result">
-            <tr>
-                
-                <th>Full name</th>
-                <th >Date</th>
-                <th >phone number</th>
-                <th >gender</th>
-                <th >grade</th>
-                
-            </tr>
-            <tbody id="tbody"></tbody>
-            
-            
-        </table>
-      </div>
+      
      
    
+</div>
 </div>
 </div>
   
 <footer class="container-fluid text-center" style="margin-top: 50px; height: 165px;">
   <p>Footer Text</p>
 </footer>
-<script src="app.js"></script>
+<script  src="app.js"></script>
 </body>
 </html>
